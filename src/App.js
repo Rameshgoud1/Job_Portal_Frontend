@@ -15,7 +15,7 @@ const App = () => {
   const [error, setError] = useState('');
 
 
-  const API_BASE_URL = 'http://localhost:8080';
+  const API_BASE_URL = 'https://job-portal-backend-036p.onrender.com';
 
   // Fetch all job posts
   const fetchAllPosts = async () => {
